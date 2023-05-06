@@ -43,7 +43,7 @@ function validate() {
     if (variable in invitados) {
         invitados[variable]();
         alert("Si estás en lista");
-        window.open("/principal.html")//cambio urgencia
+        window.open("/Restaurant-Fabian/principal.html")//cambio urgencia
     } else {
         alert("NO ESTAS EN LA LISTA \n \n*escribe sin dejar espacios");
     }
