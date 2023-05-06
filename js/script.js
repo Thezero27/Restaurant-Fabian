@@ -35,7 +35,10 @@ function validate() {
         },
         '00000000': function () {
             //Admin
-        }
+        },
+        '99999999': function () {
+            //Admin2
+        },
     }
 
     const variable = username;
