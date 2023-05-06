@@ -33,7 +33,7 @@ function validate() {
         '47206802': function () {
             //Jimy
         },
-        '11111111': function () {
+        '00000000': function () {
             //Admin
         }
     }
