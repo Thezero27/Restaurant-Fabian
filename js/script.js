@@ -45,18 +45,12 @@ function validate() {
         alert("Si estás en lista");
         window.open("/Restaurant-Fabian/principal.html")//cambio urgencia
     } else {
-        alert("NO ESTAS EN LA LISTA \n \n*escribe sin dejar espacios");
+        alert("NO ESTAS EN LA LISTA \n \n*escribe sin dejar espacios");//en caso no esta registrado el usuario
     }
 
 
 
-    /* var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
-    if (username == "usuario" && password == "contraseña") {
-        alert("Inicio de sesión exitoso");
-    } else {
-        alert("Nombre de usuario o contraseña incorrectos");
-    } */
+    
 }
 
 
