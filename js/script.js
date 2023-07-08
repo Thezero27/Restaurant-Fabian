@@ -51,7 +51,7 @@ function validate() {
         window.open("/Restaurant-Fabian/principal.html")//cambio urgencia
     } else {
         alert("NO ESTAS EN LA LISTA \n \n*escribe sin dejar espacios");//en caso no esta registrado el usuario
-    }
+    }//aqui es el fin esta linea es para disimular XD
 
 
 
