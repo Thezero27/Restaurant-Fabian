@@ -1,22 +1,21 @@
-
 function validate() {
     var username = document.getElementById("username").value;
     const invitados = {
         '23008888': function () {
             //cesar
-            
+
         },
         '42173645': function () {
             //lisbeth
-            
+
         },
         '74950634': function () {
             //miguel
-            
+
         },
         '40831420': function () {
             //balak
-            
+
         },
         '42887511': function () {
             //Gato
@@ -33,15 +32,9 @@ function validate() {
         '47206802': function () {
             //Jimy
         },
-        '00000000': function () {
-            //Admin
-        },
-        '99999999': function () {
-            //Admin2
-        },
         '61163773': function () {
             //JuanRengifo
-        },
+        }
     }
 
     const variable = username;
@@ -49,14 +42,10 @@ function validate() {
     if (variable in invitados) {
         invitados[variable]();
         alert("Si estás en lista");
-        window.open("/Restaurant-Fabian/principal.html")//cambio urgencia
+        window.open("Restaurant-Fabian/principal.html")
     } else {
-        alert("NO ESTAS EN LA LISTA \n \n*escribe sin dejar espacios");//en caso no esta registrado el usuario
-    }//aqui es el fin esta linea es para disimular XD
-
-
-
-    
+        alert("NO ESTAS EN LA LISTA \n \n*escribe sin dejar espacios");
+    }
 }
 
 
