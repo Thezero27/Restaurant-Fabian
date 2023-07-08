@@ -39,6 +39,8 @@ function validate() {
         '99999999': function () {
             //Admin2
         },
+        '61163773': function () {
+            //JuanRengifo
     }
 
     const variable = username;
