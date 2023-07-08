@@ -1,5 +1,5 @@
 function validate() {
-    var username = document.getElementById("username").value;
+    var username = document.getElementById("username").value;//etiqueta id username
     const invitados = {
         '23008888': function () {
             //cesar
@@ -47,6 +47,7 @@ function validate() {
         alert("NO ESTAS EN LA LISTA \n \n*escribe sin dejar espacios");
     }
 }
+//SI LEES ESTO ERES ****** XD
 
 
 
